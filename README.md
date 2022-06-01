@@ -1,5 +1,6 @@
-# GitHub_HW2
 # GitHub Homework 2
+
+#создаём и kлонируем внешний репозиторий git clone <copy repository HTTPS>, не забыть перейти в главную ветку
 
 1. На локальном репозитории сделать ветки для:
 #создаём и kлонируем внешний репозиторий git clone <copy repository HTTPS>, не забыть перейти в главную ветку
@@ -60,7 +61,7 @@ git push origin --all
 
 ```bash
   git checkout Bug_Reports  --> 
-  vim Bug_Report.txt
+  vim Bug_Reports.txt
   .
   .
   Esc
@@ -69,7 +70,7 @@ git push origin --all
  or
  
   git checkout Bug_Reports -->
-  cat > Bug_Report.txt
+  cat > Bug_Reports.txt
   ^C
     
 |ID|Version|Environment|Summary|STR|Expected Result|Actual Result|Severity|Priority|Attachments|
@@ -91,9 +92,9 @@ git status
 4. Запушить структуру багрепорта на внешний репозиторий
 
 ```bash
-git add Bug_Report.txt  -->
-git commit -m "add file bug_report"  -->
-git push --set-upstream origin Bag_report
+git add Bug_Reports.txt  -->
+git commit -m "add file bug_reports"  -->
+git push --set-upstream origin Bag_reports
 ```
 
 5. Вмержить ветку Bug Reports в Main 
@@ -153,6 +154,7 @@ git push origin CheckLists
 
 ```bash
 git checkout main
+    
 #посмотреть были ли изменения
 git fetch
 --> 
